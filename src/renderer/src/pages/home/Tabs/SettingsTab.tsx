@@ -709,11 +709,17 @@ const Container = styled(Scrollbar)`
   flex-direction: column;
   padding: 10px;
 
+  .ant-tabs-nav {
+    .ant-tabs-tab {
+      padding: 0 20px;
+    }
+  }
+
   .ant-tabs {
     .ant-tabs-content-holder {
-      height: 100%;
       padding: 0 10px;
       overflow: auto;
+      min-height: 460px;
     }
 
     .ant-tabs-content {

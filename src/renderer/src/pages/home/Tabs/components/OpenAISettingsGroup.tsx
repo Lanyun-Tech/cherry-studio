@@ -1,4 +1,4 @@
-import { SettingDivider, SettingRow, SettingTitle } from '@renderer/pages/settings'
+import { SettingDivider, SettingRow } from '@renderer/pages/settings'
 import { RootState, useAppDispatch } from '@renderer/store'
 import { setOpenAIServiceTier, setOpenAISummaryText } from '@renderer/store/settings'
 import { OpenAIServiceTier, OpenAISummaryText } from '@renderer/types'
@@ -93,8 +93,8 @@ const OpenAISettingsGroup: FC<Props> = ({
 
   return (
     <SettingGroup>
-      <SettingTitle>{t('settings.openai.title')}</SettingTitle>
-      <SettingDivider />
+      {/* <SettingTitle>{t('settings.openai.title')}</SettingTitle>
+      <SettingDivider /> */}
       <SettingRow>
         <SettingRowTitleSmall>
           {t('settings.openai.service_tier.title')}{' '}
