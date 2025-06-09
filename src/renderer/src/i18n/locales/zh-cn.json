@@ -1510,7 +1510,6 @@
         "providerPlaceholder": "提供者名称",
         "advancedSettings": "高级设置"
       },
-      "messages.prompt": "显示提示词",
       "messages.tokens": "显示Token用量",
       "messages.divider": "消息分割线",
       "messages.grid_columns": "消息网格展示列数",

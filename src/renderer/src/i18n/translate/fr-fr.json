@@ -1606,7 +1606,6 @@
       "assistant.icon.type.none": "Ne pas afficher",
       "general.auto_check_update.title": "Mise à jour automatique",
       "input.show_translate_confirm": "Afficher la boîte de dialogue de confirmation de traduction",
-      "messages.prompt": "Mot-clé d'affichage",
       "messages.input.enable_quick_triggers": "Activer les menus rapides avec '/' et '@'",
       "messages.input.enable_delete_model": "Activer la touche Supprimer pour effacer le modèle/pièce jointe saisie",
       "messages.math_engine.none": "Aucun",

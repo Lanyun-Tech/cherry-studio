@@ -45,7 +45,6 @@ import {
   setRenderInputMessageAsMarkdown,
   setShowInputEstimatedTokens,
   setShowMessageDivider,
-  setShowPrompt,
   setShowTokens,
   setShowTranslateConfirm,
   setThoughtAutoCollapse
@@ -91,7 +90,6 @@ const SettingsTab: FC<Props> = (props) => {
   const dispatch = useAppDispatch()
 
   const {
-    showPrompt,
     showMessageDivider,
     messageFont,
     showInputEstimatedTokens,
@@ -311,11 +309,6 @@ const SettingsTab: FC<Props> = (props) => {
       )}
       <CollapsibleSettingGroup title={t('settings.messages.title')} defaultExpanded={true}>
         <SettingGroup>
-          <SettingRow>
-            <SettingRowTitleSmall>{t('settings.messages.prompt')}</SettingRowTitleSmall>
-            <Switch size="small" checked={showPrompt} onChange={(checked) => dispatch(setShowPrompt(checked))} />
-          </SettingRow>
-          <SettingDivider />
           <SettingRow>
             <SettingRowTitleSmall>{t('settings.messages.tokens')}</SettingRowTitleSmall>
             <Switch size="small" checked={showTokens} onChange={(checked) => dispatch(setShowTokens(checked))} />

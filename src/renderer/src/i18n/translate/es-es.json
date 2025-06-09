@@ -1605,7 +1605,6 @@
       "assistant.icon.type.none": "No mostrar",
       "general.auto_check_update.title": "Actualización automática",
       "input.show_translate_confirm": "Mostrar diálogo de confirmación de traducción",
-      "messages.prompt": "Palabra de indicación",
       "messages.input.enable_quick_triggers": "Habilitar menú rápido con '/' y '@'",
       "messages.input.enable_delete_model": "Habilitar la eliminación con la tecla de borrado para modelos/archivos adjuntos introducidos",
       "messages.math_engine.none": "Ninguno",

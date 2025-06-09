@@ -1504,7 +1504,6 @@
         "providerPlaceholder": "Имя провайдера",
         "advancedSettings": "Расширенные настройки"
       },
-      "messages.prompt": "Показывать подсказки",
       "messages.tokens": "Показать использование токенов",
       "messages.divider": "Показывать разделитель между сообщениями",
       "messages.grid_columns": "Количество столбцов сетки сообщений",

@@ -1286,8 +1286,6 @@ const migrateConfig = {
   },
   '99': (state: RootState) => {
     try {
-      state.settings.showPrompt = true
-
       addWebSearchProvider(state, 'bocha')
 
       updateWebSearchProvider(state, {

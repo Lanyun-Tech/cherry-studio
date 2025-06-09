@@ -46,7 +46,6 @@ export interface SettingsState {
   proxyMode: 'system' | 'custom' | 'none'
   proxyUrl?: string
   userName: string
-  showPrompt: boolean
   showTokens: boolean
   showMessageDivider: boolean
   messageFont: 'system' | 'serif'
@@ -194,7 +193,6 @@ export const initialState: SettingsState = {
   proxyMode: 'system',
   proxyUrl: undefined,
   userName: '',
-  showPrompt: true,
   showTokens: true,
   showMessageDivider: true,
   messageFont: 'system',
@@ -359,9 +357,6 @@ const settingsSlice = createSlice({
     },
     setUserName: (state, action: PayloadAction<string>) => {
       state.userName = action.payload
-    },
-    setShowPrompt: (state, action: PayloadAction<boolean>) => {
-      state.showPrompt = action.payload
     },
     setShowTokens: (state, action: PayloadAction<boolean>) => {
       state.showTokens = action.payload
@@ -693,7 +688,6 @@ export const {
   setProxyMode,
   setProxyUrl,
   setUserName,
-  setShowPrompt,
   setShowTokens,
   setShowMessageDivider,
   setMessageFont,

@@ -1608,7 +1608,6 @@
       "assistant.icon.type.none": "Não mostrar",
       "general.auto_check_update.title": "Atualização automática",
       "input.show_translate_confirm": "Mostrar diálogo de confirmação de tradução",
-      "messages.prompt": "Exibir palavra-chave",
       "messages.input.enable_quick_triggers": "Ativar menu rápido com '/' e '@'",
       "messages.input.enable_delete_model": "Ativar tecla de exclusão para remover modelos/anexos inseridos",
       "messages.math_engine.none": "Nenhum",

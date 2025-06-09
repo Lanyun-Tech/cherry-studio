@@ -1606,7 +1606,6 @@
       "assistant.icon.type.none": "Κανένα",
       "general.auto_check_update.title": "Αυτόματη ενημέρωση",
       "input.show_translate_confirm": "Εμφάνιση παραθύρου επιβεβαίωσης μετάφρασης",
-      "messages.prompt": "Λήμμα προτροπής",
       "messages.input.enable_quick_triggers": "Ενεργοποίηση των '/' και '@' για γρήγορη πρόσβαση σε μενού",
       "messages.input.enable_delete_model": "Ενεργοποίηση διαγραφής μοντέλων/επισυναπτόμενων αρχείων με το πλήκτρο διαγραφής",
       "messages.math_engine.none": "Κανένα",
