@@ -15,7 +15,7 @@ import { setNarrowMode } from '@renderer/store/settings'
 import { Assistant } from '@renderer/types'
 import { Tooltip } from 'antd'
 import { t } from 'i18next'
-import { LayoutGrid, PanelLeft, PanelRight, Search } from 'lucide-react'
+import { LayoutGrid, Maximize2, Minimize2, PanelLeft, PanelRight, Search } from 'lucide-react'
 import { FC, useCallback } from 'react'
 import styled from 'styled-components'
 
@@ -90,7 +90,11 @@ const ChatNavbar: FC<Props> = ({ activeAssistant }) => {
           )}
           <Tooltip title={t('navbar.expand')} mouseEnterDelay={0.8}>
             <NarrowIcon onClick={handleNarrowModeToggle}>
-              <i className="iconfont icon-icon-adaptive-width"></i>
+              {narrowMode ? (
+                <Maximize2 size={16} style={{ transform: 'rotate(45deg)' }} />
+              ) : (
+                <Minimize2 size={16} style={{ transform: 'rotate(45deg)' }} />
+              )}
             </NarrowIcon>
           </Tooltip>
           {sidebarIcons.visible.includes('minapp') && (
