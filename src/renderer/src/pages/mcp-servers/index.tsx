@@ -30,7 +30,7 @@ const McpServersPage: FC = () => {
       <NavbarMain>
         <NavbarCenter style={{ borderRight: 'none' }}>
           <HStack alignItems="center" gap={10}>
-            {t('common.mcp')}
+            {t('settings.mcp.title')}
             {!isHome && (
               <Link to="/mcp-servers">
                 <Button type="default" icon={<ArrowLeftOutlined />} shape="circle" size="small" className="nodrag" />

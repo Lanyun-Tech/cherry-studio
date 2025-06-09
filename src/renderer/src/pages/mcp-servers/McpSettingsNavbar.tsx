@@ -71,7 +71,7 @@ export const McpSettingsNavbar = () => {
   }))
 
   return (
-    <HStack alignItems="center" gap={5}>
+    <HStack alignItems="center" gap={5} style={{ marginRight: 10 }}>
       <Button
         size="small"
         type="text"

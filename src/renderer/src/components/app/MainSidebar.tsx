@@ -107,7 +107,7 @@ const MainSidebar: FC = () => {
     },
     { icon: <LayoutGrid size={18} className="icon" />, text: t('minapp.title'), path: '/apps' },
     { icon: <FileSearch size={18} className="icon" />, text: t('knowledge.title'), path: '/knowledge' },
-    { icon: <SquareTerminal size={18} className="icon" />, text: t('common.mcp'), path: '/mcp-servers' },
+    { icon: <SquareTerminal size={18} className="icon" />, text: t('settings.mcp.title'), path: '/mcp-servers' },
     { icon: <Folder size={18} className="icon" />, text: t('files.title'), path: '/files' }
   ]
 
